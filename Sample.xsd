@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://soap.sforce.com/2006/04/metadata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Profile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="applicationVisibilities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="application" type="xs:string" />
+              <xs:element name="default" type="xs:boolean" />
+              <xs:element name="visible" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="categoryGroupVisibilities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="dataCategories" type="xs:string" />
+              <xs:element name="dataCategoryGroup" type="xs:string" />
+              <xs:element name="visibility" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="classAccesses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="apexClass" type="xs:string" />
+              <xs:element name="enabled" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="custom" type="xs:boolean" />
+        <xs:element maxOccurs="unbounded" name="customMetadataTypeAccesses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="enabled" type="xs:boolean" />
+              <xs:element name="name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="customPermissions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="enabled" type="xs:boolean" />
+              <xs:element name="name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="fieldPermissions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="editable" type="xs:boolean" />
+              <xs:element name="field" type="xs:string" />
+              <xs:element name="readable" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="layoutAssignments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="layout" type="xs:string" />
+              <xs:element minOccurs="0" name="recordType" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="loginIpRanges">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="endAddress" type="xs:string" />
+              <xs:element name="startAddress" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="objectPermissions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="allowCreate" type="xs:boolean" />
+              <xs:element name="allowDelete" type="xs:boolean" />
+              <xs:element name="allowEdit" type="xs:boolean" />
+              <xs:element name="allowRead" type="xs:boolean" />
+              <xs:element name="modifyAllRecords" type="xs:boolean" />
+              <xs:element name="object" type="xs:string" />
+              <xs:element name="viewAllRecords" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="pageAccesses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="apexPage" type="xs:string" />
+              <xs:element name="enabled" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="recordTypeVisibilities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="default" type="xs:boolean" />
+              <xs:element minOccurs="0" name="personAccountDefault" type="xs:boolean" />
+              <xs:element name="recordType" type="xs:string" />
+              <xs:element name="visible" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="tabVisibilities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tab" type="xs:string" />
+              <xs:element name="visibility" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="userLicense" type="xs:string" />
+        <xs:element maxOccurs="unbounded" name="userPermissions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="enabled" type="xs:boolean" />
+              <xs:element name="name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
