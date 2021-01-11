@@ -1,0 +1,4 @@
+/Users/andrew/Desktop/Publish/SalesforceProfileRefactor.dll
+/Users/andrew/Desktop/Publish/SalesforceProfileRefactor.deps.json
+/Users/andrew/Desktop/Publish/SalesforceProfileRefactor.runtimeconfig.json
+/Users/andrew/Desktop/Publish/SalesforceProfileRefactor.pdb

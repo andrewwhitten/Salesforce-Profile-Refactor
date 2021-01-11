@@ -140,7 +140,7 @@ namespace SalesforceProfileRefactor
     }
 
     /// <summary>
-    /// Extension to the auto-generated ProfileLoginIpRanges class in Sample.cs
+    /// Extension to the auto-generated ProfileLoginIpRanges class in Sample.cs - not used in PermSets
     /// </summary>
     public partial class ProfileLoginIpRanges : IComparable<ProfileLoginIpRanges>
     {
@@ -208,6 +208,9 @@ namespace SalesforceProfileRefactor
     /// <summary>
     /// Extension to the auto-generated ProfileTabVisibilities class in Sample.cs
     /// </summary>
+    /// <remarks>
+    /// Permission sets have these as license dependant https://help.salesforce.com/articleView?id=000333496&type=1&mode=1
+    /// </remarks>
     public partial class ProfileTabVisibilities : IComparable<ProfileTabVisibilities>
     {
         public int CompareTo(ProfileTabVisibilities profileTabVisibilities)
@@ -230,6 +233,9 @@ namespace SalesforceProfileRefactor
     /// <summary>
     /// Extension to the auto-generated ProfileRecordTypeVisibilities class in Sample.cs
     /// </summary>
+    /// <remarks>
+    /// Permission sets cannot specify master record tpyes https://help.salesforce.com/articleView?id=permissions_record_type_access.htm&type=5
+    /// </remarks>
     public partial class ProfileRecordTypeVisibilities : IComparable<ProfileRecordTypeVisibilities>
     {
         public int CompareTo(ProfileRecordTypeVisibilities profileRecordTypeVisibilities)

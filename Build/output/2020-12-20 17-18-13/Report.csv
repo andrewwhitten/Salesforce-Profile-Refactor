@@ -1,0 +1,8 @@
+Type, File Name, ClassAccesses, Object Permissions, Field Permissions, Layout Assignments, RecordType Visibilities, Tab Visibilities, Custom Metadata Datatype Accesses, Custom Permissions, Page Accesses, Application Visibilities, User Permissions
+input,input/RebelMajor.profile.xml,5,0,0,0,0,0,0,0,0,0,5
+input,input/RebelGeneral.profile.xml,5,0,0,0,0,0,0,0,0,0,5
+input,input/RebelCaptain.profile.xml,5,0,0,0,0,0,0,0,0,0,5
+common,/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/Build/output/2020-12-20 17-18-13/SubsetPermissionSet.permissionset-meta.xml,2,0,0,0,0,0,0,0,0,0,5
+output,/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/Build/output/2020-12-20 17-18-13/RebelMajor.profile.xml,3,0,0,0,0,0,0,0,0,0,0
+output,/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/Build/output/2020-12-20 17-18-13/RebelGeneral.profile.xml,3,0,0,0,0,0,0,0,0,0,0
+output,/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/Build/output/2020-12-20 17-18-13/RebelCaptain.profile.xml,3,0,0,0,0,0,0,0,0,0,0

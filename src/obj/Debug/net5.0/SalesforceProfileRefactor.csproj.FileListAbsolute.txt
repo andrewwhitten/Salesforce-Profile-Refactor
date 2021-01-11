@@ -1,0 +1,14 @@
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/bin/Debug/net5.0/SalesforceProfileRefactor.deps.json
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/bin/Debug/net5.0/SalesforceProfileRefactor.runtimeconfig.json
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/bin/Debug/net5.0/SalesforceProfileRefactor.runtimeconfig.dev.json
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/bin/Debug/net5.0/SalesforceProfileRefactor.dll
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/bin/Debug/net5.0/ref/SalesforceProfileRefactor.dll
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/bin/Debug/net5.0/SalesforceProfileRefactor.pdb
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.AssemblyInfoInputs.cache
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.AssemblyInfo.cs
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.csproj.CoreCompileInputs.cache
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.dll
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/ref/SalesforceProfileRefactor.dll
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.pdb
+/Users/andrew/source/SalesforceProfileRefactor/Salesforce-Profile-Refactor/obj/Debug/net5.0/SalesforceProfileRefactor.genruntimeconfig.cache

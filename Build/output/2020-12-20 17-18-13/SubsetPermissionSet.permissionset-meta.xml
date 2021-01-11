@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+  <description>Common Permission Set</description>
+  <hasActivationRequired>false</hasActivationRequired>
+  <label>Common Permission Set</label>
+  <license>Salesforce</license>
+  <classAccesses>
+    <apexClass>XWing</apexClass>
+    <enabled>true</enabled>
+  </classAccesses>
+  <classAccesses>
+    <apexClass>YWing</apexClass>
+    <enabled>true</enabled>
+  </classAccesses>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ActivitiesAccess</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>AllowViewKnowledge</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ChatterInternalUser</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>LightningConsoleAllowedForUser</name>
+  </userPermissions>
+  <userPermissions>
+    <enabled>true</enabled>
+    <name>ViewHelpLink</name>
+  </userPermissions>
+</PermissionSet>
